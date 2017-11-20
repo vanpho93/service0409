@@ -8,7 +8,7 @@ export class IpService {
     getIp(): Promise<string> {
         return this.http.get('http://ip.jsontest.com/')
         .toPromise()
-        .then(res => res.json())
+        .then(res => res.json()) // res => res.text
         .then(resJSON => resJSON.ip);
     }
 }
