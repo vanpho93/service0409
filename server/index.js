@@ -13,7 +13,7 @@ app.use((req, res, next) => {
     next();
 });
 
-app.get('/words', (req, res) => {
+app.get('/word', (req, res) => {
     Word.find({})
     .then(words => res.send(words))
     .catch(err => res.send(err));
