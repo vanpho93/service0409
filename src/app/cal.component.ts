@@ -27,7 +27,7 @@ export class CalComponent {
 
     calculate() {
         const { soA, soB, tenPhepTinh } = this;
-        this.calService.getResult(soA, soB, tenPhepTinh)
+        this.calService.getResultByPost(soA, soB, tenPhepTinh)
         .then(result => console.log(result));
     }
 }
