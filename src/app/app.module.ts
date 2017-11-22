@@ -5,11 +5,13 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { CalComponent } from './cal.component';
+import { WordsComponent } from './words/words.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CalComponent,
+    WordsComponent
   ],
   imports: [
     BrowserModule,
