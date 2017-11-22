@@ -15,10 +15,10 @@ mongoose.connect('mongodb://localhost/mean1808', { useMongoClient: true });
 module.exports = Word;
 
 // Word.insertMany([
-    //     { en: 'action', vn: 'hành động' },
-    //     { en: 'actor', vn: 'diễn viên' },
-    //     { en: 'activity', vn: 'hoạt động' },
-    //     { en: 'active', vn: 'chủ động' },
-    //     { en: 'bath', vn: 'tắm' },
-    //     { en: 'bedroom', vn: 'phòng ngủ' }
+//         { en: 'action', vn: 'hành động' },
+//         { en: 'actor', vn: 'diễn viên' },
+//         { en: 'activity', vn: 'hoạt động' },
+//         { en: 'active', vn: 'chủ động' },
+//         { en: 'bath', vn: 'tắm' },
+//         { en: 'bedroom', vn: 'phòng ngủ' }
 // ]);
