@@ -9,6 +9,7 @@ import { WordsComponent } from './words/words.component';
 import { ListPersonComponent } from './list-person/list-person.component';
 import { RoundNumPipe } from './list-person/round-num.pipe';
 import { MinAgePipe } from './list-person/min-age.pipe';
+import { SortHeightPipe } from './list-person/sort-height.pipe';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { MinAgePipe } from './list-person/min-age.pipe';
     WordsComponent,
     ListPersonComponent,
     RoundNumPipe,
-    MinAgePipe
+    MinAgePipe,
+    SortHeightPipe
   ],
   imports: [
     BrowserModule,
