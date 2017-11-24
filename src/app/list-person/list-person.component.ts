@@ -7,9 +7,10 @@ import { Component } from '@angular/core';
 })
 
 export class ListPersonComponent {
+  sortPropName = 'name';
   arrPerson: Person[] = [
-    { name: 'Teo', age: 10, height: 100, weight: 130 },
     { name: 'Ti', age: 15, height: 80, weight: 120 },
+    { name: 'Teo', age: 10, height: 100, weight: 130 },
     { name: 'Tun', age: 20, height: 90, weight: 110 },
   ];
 }
