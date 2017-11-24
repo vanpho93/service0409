@@ -6,12 +6,14 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { CalComponent } from './cal.component';
 import { WordsComponent } from './words/words.component';
+import { ListPersonComponent } from './list-person/list-person.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CalComponent,
-    WordsComponent
+    WordsComponent,
+    ListPersonComponent
   ],
   imports: [
     BrowserModule,
