@@ -8,6 +8,7 @@ import { CalComponent } from './cal.component';
 import { WordsComponent } from './words/words.component';
 import { ListPersonComponent } from './list-person/list-person.component';
 import { RoundNumPipe } from './list-person/round-num.pipe';
+import { MinAgePipe } from './list-person/min-age.pipe';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { RoundNumPipe } from './list-person/round-num.pipe';
     CalComponent,
     WordsComponent,
     ListPersonComponent,
-    RoundNumPipe
+    RoundNumPipe,
+    MinAgePipe
   ],
   imports: [
     BrowserModule,
