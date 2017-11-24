@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { CalComponent } from './cal.component';
 import { WordsComponent } from './words/words.component';
 import { ListPersonComponent } from './list-person/list-person.component';
+import { RoundNumPipe } from './list-person/round-num.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     CalComponent,
     WordsComponent,
-    ListPersonComponent
+    ListPersonComponent,
+    RoundNumPipe
   ],
   imports: [
     BrowserModule,
